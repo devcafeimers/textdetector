@@ -1,0 +1,22 @@
+{
+    "name": "cafeimers/textdetector",
+    "description": "PHP Text Detection from Image",
+    "type": "library",
+    "keywords": ["Tesseract", "OCR", "text recognition", "PHP Text Detection"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Imam Ali Mustofa",
+            "email": "imamalimustofa@cafeimers.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cafeimers\\Detector\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "thiagoalessio/tesseract_ocr": "^2.4"
+    }
+}
