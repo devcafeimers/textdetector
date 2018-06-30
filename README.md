@@ -8,6 +8,37 @@
 
 	$ composer require cafeimers/textdetector
 
+:bangbang: **This library depends on [Tesseract OCR][], version _3.03_ or later.**
+
+<br/>
+
+### Note for Windows users
+
+There are [many ways][tesseract_installation_on_windows] to install
+[Tesseract OCR][] on your system, but if you just want something quick to
+get up and running, I recommend installing the [Capture2Text][] package with
+[Chocolatey][].
+
+    choco install capture2text --version 3.9
+
+:warning: Recent versions of [Capture2Text][] stopped shipping the `tesseract` binary.
+
+<br/>
+
+### Note for macOS users
+
+With [MacPorts][] you can install support for individual languages, like so:
+
+    $ sudo port install tesseract-<langcode>
+
+But that is not possible with [Homebrew][]. It comes only with **English** support
+by default, so if you intend to use it for other language, the quickest solution
+is to install them all:
+
+    $ brew install tesseract --with-all-languages
+
+<br/>
+
 ## Usage
 
 Example 1
