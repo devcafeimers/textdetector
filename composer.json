@@ -1,5 +1,5 @@
 {
-    "name": "cafeimers/textdetector",
+    "name": "devcafeimers/textdetector",
     "description": "PHP Text Detection from Image",
     "type": "library",
     "keywords": ["Tesseract", "OCR", "text recognition", "PHP Text Detection"],
